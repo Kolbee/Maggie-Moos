@@ -1,7 +1,21 @@
 html
-header {
-  background-color: #F9D0FA;
-}
+
+
 h1 {
   color: pink;
+}
+
+.first {
+  float: right;
+}
+
+.btn {
+  border: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media {
+  
 }
