@@ -12,10 +12,13 @@ h1 {
   font-weight: bold;
   font-size: 20px;
   background-color: #FFF;
+
 }
 
 .btn a:hover {
+  color: white;
   background-color: #ffcce6;
+
 }
 .brand {
   text-align: left;
