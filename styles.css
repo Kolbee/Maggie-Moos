@@ -1,34 +1,27 @@
-html
-
-
-
-h1 {
+html h1 {
   color: pink;
 }
 
-
 .btn {
   border: 0;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
+  font-family: 'Gochi Hand', cursive;
+  font-family: 'Luckiest Guy', cursive;
+  font-size-adjust: auto;
+  font-stretch: extra-expanded;
   font-size: 20px;
   background-color: #FFF;
   align: right;
 }
 
-.collapse-navbar-collapse {
-
-}
-
+.collapse-navbar-collapse {}
 
 .btn a:hover {
   color: white;
   background-color: #ffcce6;
-
 }
+
 .navbar-brand {
   float: left;
 }
-@media {
 
-}
+@media {}
