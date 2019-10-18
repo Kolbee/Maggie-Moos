@@ -10,10 +10,11 @@ html h1 {
   font-stretch: extra-expanded;
   font-size: 20px;
   background-color: #FFF;
-  align: right;
 }
 
-.collapse-navbar-collapse {}
+nav.button {
+  float: right;
+}
 
 .btn a:hover {
   color: white;
