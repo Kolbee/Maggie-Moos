@@ -14,24 +14,22 @@ nav.button {
 }
 
 .btn a:hover {
-  color: white;
-  background-color: #ffcce6;
+  color: #489BFF;
+  background-color: #F7C1C1;
 }
 
-.navbar-brand {
+.navbar-brand{
   float: left;
 }
+.navbar {
 
+}
+.nav-item {
+  padding: 0px 30px 0px 30px;
+}
 .column {
-  float: left;
   width: 50%;
   padding: 70px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 #demotext {
@@ -40,7 +38,7 @@ background: #F7C1C1;
 text-shadow: 4px 3px 0px #7A7A7A;
 color: #FFFFFF;
 text-align: center;
-font-size: 50px;
+font-size: 60px;
 background: #F7C1C1;
 font-family: 'Fredoka One', cursive;
 }
