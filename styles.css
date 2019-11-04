@@ -86,12 +86,16 @@ ul.location {
   font-size: 60px;
 }
 
-.card-header {
-  text-align: center;
+#accordion p {
   font-family: 'Lacquer', sans-serif;
   font-size: 20px;
+  color: black;
 }
 
+
+#accordion {
+  text-align: center;
+}
 .q {
   font-family: 'Lacquer', sans-serif;
 }
