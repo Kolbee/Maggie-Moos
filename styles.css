@@ -192,13 +192,27 @@ label {
   background-color: #f2f2f2;
   padding: 20px;
 }
-<<<<<<< HEAD
-
-
-
-=======
-.btn .link {
-  font-family: 'Indie Flower', cursive;
+.col-md-6 {
+  padding: 20px 40px 20px 40px;
 }
->>>>>>> 9b95292b259e69e98db79938e945f67c0d36985a
+.col-md-3 {
+  padding: 30px 40px 30px 40px;
+}
+.us h2 {
+  text-decoration: underline;
+  color: #70CDDA;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+table {
+  width: 100%;
+}
+.us td {
+  background-color: #F4D3F7;
+}
+.us h5 {
+  font-size: 25px;
+}
 @media {}
