@@ -202,5 +202,27 @@ label {
   background-color: #f2f2f2;
   padding: 20px;
 }
-
+.col-md-6 {
+  padding: 20px 40px 20px 40px;
+}
+.col-md-3 {
+  padding: 30px 40px 30px 40px;
+}
+.us h2 {
+  text-decoration: underline;
+  color: #70CDDA;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+table {
+  width: 100%;
+}
+.us td {
+  background-color: #F4D3F7;
+}
+.us h5 {
+  font-size: 25px;
+}
 @media {}
