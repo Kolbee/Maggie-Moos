@@ -87,19 +87,26 @@ ul.location {
 }
 
 #accordion p {
-  font-family: 'Bangers', cursive;
-  font-size: 25px;
-  color: blue;
+font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #46E4E4;
 }
 
 
 #accordion {
   text-align: center;
 }
-.q {
-  font-family: 'Boogaloo', cursive;
+#accordion .q {
+  font-family: 'Bebas Neue', cursive;
+  color: #36CFCF;
 }
 
+#accordion h6 {
+  font-family: 'Mukta', sans-serif;
+  color: #DF36B4;
+  font-size: 18px;
+  font-weight: bold;
+}
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -121,9 +128,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/*input[type=submit]:hover {
-  background-color: #45a049;
-}*/
+
 
 .hide-replaced.ws-inputreplace {
     display: none !important;
@@ -133,7 +138,7 @@ input[type=submit] {
     background: #fff;
 }
 .ws-inline-picker.ws-size-2, .ws-inline-picker.ws-size-4 {
-    width: 49.6154em;
+    width: 100%;
 }
 .ws-size-4 .ws-index-0, .ws-size-4 .ws-index-1 {
     border-bottom: 0.07692em solid #eee;
@@ -160,8 +165,13 @@ form {
     padding: 10px;
 }
 .form-row {
-    padding: 5px 10px;
-    margin: 5px 0;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 label {
     display: block;
