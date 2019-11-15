@@ -43,7 +43,7 @@ nav.button {
   font-size: ;
 }
 
-/*font-family: 'Mansalva', cursive;*/
+
 #icetext {
   color: #FFFFFF;
   background: #F7C1C1;
@@ -60,6 +60,7 @@ nav.button {
   font-size: 35px;
 }
 
+
 ul {
   font-family: 'Gochi Hand', cursive;
   font-size: 20px;
@@ -68,6 +69,13 @@ ul {
 .stack {
   padding: 30px;
 }
+
+.blue {
+  background-color: red;
+  border-radius: 1px;
+  border: solid;
+}
+
 
 /*h1 {
   text-shadow: 2px 2px 5px #E06EF5;
