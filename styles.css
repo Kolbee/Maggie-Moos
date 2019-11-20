@@ -56,19 +56,17 @@ nav.button {
 }
 
 
-.carousel{
-    background: #2f4357;
-    margin-top: 20px;
-}
-.carousel-item{
+.all {
 
-    max-height: 300px;
-    max-width: 250px;
-  }
-.bs-example{
-	margin: 50px;
+  padding: 20px;
 }
+.ice {
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  padding: 30px;
+  text-align: center;
 
+}
 
 
 .fla {
@@ -89,13 +87,36 @@ ul {
   padding: 30px;
 }
 
-.blue {
-  background-color: red;
+.a {
+  background-color: #F6F597;
   border-radius: 1px;
   border: solid;
+  border-color: #D6D54B;
 }
-
-
+.b {
+  background-color: #A8CCFF;
+  border-radius: 1px;
+  border: solid;
+  border-color: #89ACDD;
+}
+.c {
+  background-color: #F4BBED;
+  border-radius: 1px;
+  border: solid;
+  border-color: #E98EDE;
+}
+.d {
+  background-color: #F2B486;
+  border-radius: 1px;
+  border: solid;
+  border-color: #E99251;
+}
+. {
+  background-color: #F39E92;
+  border-radius: 1px;
+  border: solid;
+  border-color: #E57565;
+}
 
 ul.location {
   list-style-type: circle;
