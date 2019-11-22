@@ -1,4 +1,16 @@
-html .btn {
+html
+
+/*Nav*/
+.navbar {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.btn {
   border: 0;
   font-family: 'Luckiest Guy', cursive;
   font-size-adjust: auto;
@@ -20,15 +32,6 @@ nav.button {
   float: left;
 }
 
-.navbar {
-  border: 1px solid #ccc;
-  border-width: 1px 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
 .nav-item {
   padding: 10px 30px 10px 30px;
 }
@@ -43,7 +46,6 @@ nav.button {
   font-size: ;
 }
 
-
 #icetext {
   color: #FFFFFF;
   background: #F7C1C1;
@@ -55,19 +57,16 @@ nav.button {
   font-family: 'Fredoka One', cursive;
 }
 
-
 .all {
-
   padding: 20px;
 }
+
 .ice {
   font-family: 'Indie Flower', cursive;
   font-size: 22px;
   padding: 30px;
   text-align: center;
-
 }
-
 
 .fla {
   font-family: 'Gochi Hand', cursive;
@@ -86,49 +85,56 @@ ul {
 .stack {
   padding: 30px;
 }
-
+/*Style for cookie/cake page*/
 .yellow {
-  background-color: #F2F1A5;
+  background-color: #F3F2BB;
   border-radius: 1px;
   border: solid;
-  border-color: #D6D54B;
+  border-color: #EBE97F;
 }
+
 .blue {
-  background-color: #C3D7F2;
+  background-color: #CCDEF6;
   border-radius: 1px;
   border: solid;
-  border-color: #93BCF3;
+  border-color: #A1C6F1;
 }
+
 .pink {
-  background-color: #F7C6F1;
+  background-color: #F2D3EF;
   border-radius: 1px;
   border: solid;
-  border-color: #E98EDE;
+  border-color: #F7A7F0;
 }
+
 .orange {
-  background-color: #F3BE95;
+  background-color: #EEC5A4;
   border-radius: 1px;
   border: solid;
-  border-color: #E99251;
+  border-color: #EAA46B;
 }
+
 .red {
-  background-color: #F1A79D;
+  background-color: #F2B5AD;
   border-radius: 1px;
   border: solid;
-  border-color: #E57565;
+  border-color: #F09488;
 }
+
 .purple {
-  background-color: #D3C5FD;
+  background-color: #D8CBFF;
   border-radius: 1px;
   border: solid;
-  border-color: #B09AF3;
+  border-color: #C3AFFF;
 }
+
 .green {
-  background-color: #C0EEC1;
+  background-color: #CCEFCD;
   border-radius: 1px;
   border: solid;
-  border-color: #8DD48E;
+  border-color: #8BEC8E;
 }
+
 .left {
   border-left: solid;
   border-radius: 1px;
@@ -150,15 +156,15 @@ ul.location {
 }
 
 #accordion p {
-font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', cursive;
   font-size: 30px;
   color: #46E4E4;
 }
 
-
 #accordion {
   text-align: center;
 }
+
 #accordion .q {
   font-family: 'Bebas Neue', cursive;
   color: #36CFCF;
@@ -170,6 +176,7 @@ font-family: 'Bebas Neue', cursive;
   font-size: 18px;
   font-weight: bold;
 }
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -191,42 +198,49 @@ input[type=submit] {
   cursor: pointer;
 }
 
-
-
 .hide-replaced.ws-inputreplace {
-    display: none !important;
+  display: none !important;
 }
-.input-picker .picker-list td > button.othermonth {
-    color: #888888;
-    background: #fff;
+
+.input-picker .picker-list td>button.othermonth {
+  color: #888888;
+  background: #fff;
 }
+
 .ws-inline-picker.ws-size-2, .ws-inline-picker.ws-size-4 {
-    width: 100%;
+  width: 100%;
 }
+
 .ws-size-4 .ws-index-0, .ws-size-4 .ws-index-1 {
-    border-bottom: 0.07692em solid #eee;
-    padding-bottom: 1em;
-    margin-bottom: 0.5em;
+  border-bottom: 0.07692em solid #eee;
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
 }
+
 .picker-list.ws-index-2, .picker-list.ws-index-3 {
-    margin-top: 3.5em;
+  margin-top: 3.5em;
 }
+
 div.ws-invalid input {
-    border-color: #c88;
+  border-color: #c88;
 }
+
 .ws-invalid label {
-    color: #933;
+  color: #933;
 }
+
 div.ws-success input {
-    border-color: #8c8;
+  border-color: #8c8;
 }
+
 form {
-    margin: 10px auto;
-    width: 500px;
-    min-width: 49.6154em;
-    border: 1px solid #000;
-    padding: 10px;
+  margin: 10px auto;
+  width: 500px;
+  min-width: 49.6154em;
+  border: 1px solid #000;
+  padding: 10px;
 }
+
 .form-row {
   width: 100%;
   padding: 12px 20px;
@@ -236,28 +250,33 @@ form {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 label {
-    display: block;
-    margin: 3px 0;
+  display: block;
+  margin: 3px 0;
 }
+
 .form-row input {
-    width: 220px;
-    padding: 3px 1px;
-    border: 1px solid #ccc;
-    box-shadow: none;
+  width: 220px;
+  padding: 3px 1px;
+  border: 1px solid #ccc;
+  box-shadow: none;
 }
+
 .form-row input[type="checkbox"] {
-    width: 15px;
+  width: 15px;
 }
+
 .date-display {
-    display: inline-block;
-    min-width: 100%;
-    padding: 5px;
-    border: 1px solid #ccc;
-    min-height: 1em;
+  display: inline-block;
+  min-width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  min-height: 1em;
 }
+
 .show-inputbtns .input-buttons {
-    display: inline-block;
+  display: inline-block;
 }
 
 .f {
@@ -265,30 +284,15 @@ label {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
 .col-md-6 {
   padding: 20px 40px 20px 40px;
 }
+
 .col-md-3 {
   padding: 30px 40px 30px 40px;
 }
-.us h2 {
-  text-decoration: underline;
-  color: #70CDDA;
-  font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 35px;
-}
-table {
-  width: 100%;
-}
-.us td {
-  background-color: #F4D3F7;
-}
-.us h5 {
-  font-size: 25px;
-}
 
-@media {
 
-}
+/*End of Website*/
+@media {}
