@@ -135,12 +135,6 @@ ul {
   border-color: #8BEC8E;
 }
 
-.left {
-  border-left: solid;
-  border-radius: 1px;
-  border-left-color: #5B5151;
-}
-
 ul.location {
   list-style-type: circle;
 }
