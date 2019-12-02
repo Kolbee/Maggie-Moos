@@ -129,11 +129,16 @@ ul {
   border: solid;
   border-color: #8BEC8E;
 }
+.left {
+  border-left: 12px solid pink;
+}
 
 ul.location {
   list-style-type: circle;
 }
-
+.cake {
+  background-color: pink;
+}
 #faqtext {
   color: #000000;
   background: #FFFFFF;
