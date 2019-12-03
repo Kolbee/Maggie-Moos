@@ -43,12 +43,33 @@ nav.button {
 
 .story {
   text-align: center;
-  font-size: ;
+  font-family: 'Caveat', cursive;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 h4 {
   font-size: 12px;
 }
+
+.body {
+  height: 200vh;
+}
+
+#carousel-example-2 {
+
+}
+
+.one {
+  height: 100vh;
+}
+
+.two {
+  height: 100vh;
+}
+
+
+
 
 #icetext {
   color: #FFFFFF;
