@@ -139,6 +139,13 @@ ul.location {
 .cake {
   background-color: pink;
 }
+
+.alltruck {
+  text-align: center
+}
+
+
+/*faq title*/
 #faqtext {
   color: #000000;
   background: #FFFFFF;
@@ -148,7 +155,7 @@ ul.location {
   text-align: center;
   font-size: 60px;
 }
-
+/*for list of faqs on faq page*/
 #accordion p {
   font-family: 'Bebas Neue', cursive;
   font-size: 30px;
@@ -171,6 +178,7 @@ ul.location {
   font-weight: bold;
 }
 
+/*field box on faq page*/
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
