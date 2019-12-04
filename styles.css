@@ -43,32 +43,55 @@ nav.button {
 
 .story {
   text-align: center;
-  font-family: 'Caveat', cursive;
-  font-weight: bold;
-  font-size: 36px;
+  font-family: 'Vidaloka', serif;
+  font-size:20px;
 }
 
 h4 {
   font-size: 12px;
 }
 
-.body {
-  height: 200vh;
+.parallax1 {
+  /* The image used */
+  background-image: url("img/shakes.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#carousel-example-2 {
+.parallax2 {
+  /* The image used */
+  background-image: url("img/gacookie.jpg");
 
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.one {
-  height: 100vh;
+.parallax3 {
+  /* The image used */
+  background-image: url("img/cake.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.two {
-  height: 100vh;
-}
-
-
 
 
 #icetext {
@@ -257,11 +280,14 @@ div.ws-success input {
 }
 
 form {
-  margin: 10px auto;
-  width: 500px;
-  min-width: 49.6154em;
+  width: 100%;
   border: 1px solid #000;
   padding: 10px;
+}
+
+#calendar {
+  width: 100%;
+  margin:0px;
 }
 
 .form-row {
@@ -312,10 +338,13 @@ label {
   padding: 20px 40px 20px 40px;
 }
 
-.col-md-3 {
+.stack2 {
   padding: 30px 40px 30px 40px;
-}
 
+}
+.blue2 {
+  padding: 30px 80px 30px 20px;
+}
 
 /*End of Website*/
 @media {}

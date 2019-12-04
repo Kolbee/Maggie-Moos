@@ -60,7 +60,8 @@
   				</div>
   			</div>
   		</div>
-  		<div class="col-md-8 fbox">field box   <div class="f">
+  		<div class="col-md-8 fbox">field box
+        <div class="f">
           <form action="/action_page.php">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your first name..">
@@ -75,15 +76,10 @@
             <input type="text" id="numb" name="pnumb" placeholder="Your phone number..">
 
             <label for="eventd">Event Date</label>
-            <input type="text" id="date" name="edate" placeholder="">
-
+            <input class="form-control" id="calendar" type="date" data-date-inline-picker="false" data-date-open-on-focus="true">
             <form action="#" class="ws-validate">
 
-                <div class="form-row show-inputbtns">
 
-
-                    <input type="date" data-date-inline-picker="false" data-date-open-on-focus="true">
-                </div>
 
             <label for="lname">Number of People</label>
             <input type="text" id="lname" name="npeople" placeholder="">
