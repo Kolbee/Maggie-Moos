@@ -46,7 +46,14 @@ nav.button {
   font-family: 'Vidaloka', serif;
   font-size: 20px;
 }
+.treat {
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.abt {
 
+}
 h4 {
   font-size: 12px;
 }
@@ -87,10 +94,22 @@ h4 {
   background-size: cover;
 }
 
-.hours {
+/* Styles for footer*/
+.title {
   font-size: 25px;
 }
+.days {
+  font-size: 16px;
+}
+.ex {
+  font-size: 14px;
+}
+.pad {
+  padding-left: 100px;
+}
 
+/*Start of Ice Cream Page*/
+/*Ice Cream Title*/
 #icetext {
   color: #FFFFFF;
   background: #F7C1C1;
@@ -217,7 +236,7 @@ ul.location {
 #accordion p {
   font-family: 'Bebas Neue', cursive;
   font-size: 30px;
-  color: #46E4E4;
+  color: #36CFCF;
 }
 
 #accordion {
@@ -226,7 +245,7 @@ ul.location {
 
 #accordion .q {
   font-family: 'Bebas Neue', cursive;
-  color: #36CFCF;
+  color: #3DCBCB;
 }
 
 #accordion h6 {
