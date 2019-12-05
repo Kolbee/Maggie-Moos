@@ -21,7 +21,11 @@
 </div>
 
 
-
+/* The image used */
+background-image: url("img/moo.jpg");
+/* Set the height */
+height: 400px;
+text-align: center;
 
 
 <div class="body" style="height: 200vh">

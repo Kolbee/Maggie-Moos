@@ -44,7 +44,7 @@ nav.button {
 .story {
   text-align: center;
   font-family: 'Vidaloka', serif;
-  font-size:20px;
+  font-size: 20px;
 }
 
 h4 {
@@ -54,10 +54,8 @@ h4 {
 .parallax1 {
   /* The image used */
   background-image: url("img/shakes.jpg");
-
   /* Set a specific height */
   height: 500px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -68,10 +66,8 @@ h4 {
 .parallax2 {
   /* The image used */
   background-image: url("img/gacookie.jpg");
-
   /* Set a specific height */
   height: 400px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -82,16 +78,15 @@ h4 {
 .parallax3 {
   /* The image used */
   background-image: url("img/cake2.png");
-
   /* Set a specific height */
   height: 450px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .hours {
   font-size: 25px;
 }
@@ -107,7 +102,13 @@ h4 {
   font-family: 'Fredoka One', cursive;
 }
 
+.jumbotron {
+  padding-top: 0;
+}
 
+.ice {
+  text-align: center;
+}
 
 .fla {
   font-family: 'Gochi Hand', cursive;
@@ -126,10 +127,12 @@ ul {
 .stack {
   padding: 30px;
 }
+
 /*Style for cookie/cake page*/
 .cake {
   background-color: pink;
 }
+
 .origin {
   padding: 15px 30px 15px 30px;
 }
@@ -182,9 +185,11 @@ ul {
   border: solid;
   border-color: #8BEC8E;
 }
-.right{
+
+.right {
   border-right: 6px solid pink;
 }
+
 .left {
   border-left: 6px solid pink;
 }
@@ -193,11 +198,9 @@ ul.location {
   list-style-type: circle;
 }
 
-
 .alltruck {
   text-align: center
 }
-
 
 /*faq title*/
 #faqtext {
@@ -209,6 +212,7 @@ ul.location {
   text-align: center;
   font-size: 60px;
 }
+
 /*for list of faqs on faq page*/
 #accordion p {
   font-family: 'Bebas Neue', cursive;
@@ -232,7 +236,7 @@ ul.location {
   font-weight: bold;
 }
 
-/*field box on faq page*/
+/*field box on truck page*/
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -290,14 +294,14 @@ div.ws-success input {
 }
 
 form {
-  width: 100%;
+  width: 75%;
   border: 1px solid #000;
   padding: 10px;
 }
 
 #calendar {
   width: 100%;
-  margin:0px;
+  margin: 0px;
 }
 
 .form-row {
@@ -350,8 +354,8 @@ label {
 
 .stack2 {
   padding: 30px 40px 30px 40px;
-
 }
+
 .blue2 {
   padding: 30px 80px 30px 20px;
 }
