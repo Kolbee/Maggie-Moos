@@ -56,28 +56,3 @@ text-align: center;
 </div>
 <!--/.Carousel Wrapper-->
 </div>
-
-
-
-
-
-
-Styles-- add back in
-
-/*Style for cookie/cake page*/
-.cake {
-  background-color: pink;
-}
-/*Style for original cake section*/
-
-
-
-/*Border for cake, cupcakes, and cookies*/
-.right {
-  border-right: 6px solid pink;
-}
-
-.left {
-  border-left: 6px solid pink;
-}
-/*End of styles for cookie/cake page*/

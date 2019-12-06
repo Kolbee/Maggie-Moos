@@ -46,16 +46,27 @@ nav.button {
   font-family: 'Vidaloka', serif;
   font-size: 20px;
 }
+
+/*Style for headers of ice cream, cake, and cookies section on home and cake page*/
 .treat {
   font-family: 'Sulphur Point', sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 550;
+  text-align: center;
 }
-.abt {
 
-}
+.abt {}
+
 h4 {
   font-size: 12px;
+}
+
+.b {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 250px;
+  height: 350px;
 }
 
 .parallax1 {
@@ -98,13 +109,14 @@ h4 {
 .title {
   font-size: 25px;
 }
+
 .days {
   font-size: 16px;
 }
+
 .ex {
   font-size: 14px;
 }
-
 
 /*Start of Ice Cream Page*/
 /*Ice Cream Title*/
@@ -145,11 +157,22 @@ ul {
   padding: 30px;
 }
 
-/*Style for cookie/cake page*/
-.cake {
-  background-color: pink;
+/*Start of cookie/cake page*/
+/*Style for headers of each section*/
+.main {
+  background-color: ;
+  border:
+    text-align: center;
+  font-size: 30px;
 }
 
+.top {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*Style for original cake section*/
 .origin {
   padding: 15px 30px 15px 30px;
 }
@@ -203,14 +226,16 @@ ul {
   border-color: #8BEC8E;
 }
 
+/*Border for cake, cupcakes, and cookies*/
 .right {
-  border-right: 6px solid pink;
+  border-right: 6px solid white;
 }
 
 .left {
-  border-left: 6px solid pink;
+  border-left: 6px solid white;
 }
 
+/*End of styles for cookie/cake page*/
 ul.location {
   list-style-type: circle;
 }
