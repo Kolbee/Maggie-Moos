@@ -28,6 +28,7 @@ height: 400px;
 text-align: center;
 
 
+
 <div class="body" style="height: 200vh">
 <!--Carousel Wrapper-->
   <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
