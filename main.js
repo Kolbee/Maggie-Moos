@@ -1,17 +1,5 @@
-$('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
-
-
-
-  for (var i=0;i<4;i++) {
-    next=next.next();
-    if (!next.length) {
-      next=$(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
-  }
-});
+if ( navigator.platform.indexOf('Win') != -1 ) {
+  window.document.getElementById("wrapper").setAttribute("class", "windows");
+} else if ( navigator.platform.indexOf('Mac') != -1 ) {
+  window.document.getElementById("wrapper").setAttribute("class", "mac");
+}
