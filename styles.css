@@ -1,5 +1,6 @@
 html
 
+
 /*Nav*/
 .navbar {
   border: 1px solid #ccc;
@@ -35,6 +36,7 @@ nav.button {
 .nav-item {
   padding: 10px 30px 10px 30px;
 }
+
 
 .column {
   width: 50%;
