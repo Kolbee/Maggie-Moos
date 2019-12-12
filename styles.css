@@ -1,5 +1,6 @@
 html
 
+
 /*Nav*/
 .navbar {
   border: 1px solid #ccc;
@@ -35,6 +36,7 @@ nav.button {
 .nav-item {
   padding: 10px 30px 10px 30px;
 }
+
 
 .column {
   width: 50%;
@@ -120,7 +122,7 @@ h4 {
 
 /*Start of Ice Cream Page*/
 /*Ice Cream Title*/
-.icetext {
+#icetext {
   color: #FFFFFF;
   background: #F7C1C1;
   text-shadow: 4px 3px 0px #7A7A7A;
@@ -130,13 +132,14 @@ h4 {
   background: #F7C1C1;
   font-family: 'Fredoka One', cursive;
 }
+
 /*carousel on ice cream page*/
 #carouselExampleFade {
   align: center;
 width: 850px;
 height: 475px;
 margin: auto;
-}
+
 
 .allice {
     background: #F1B1B1;
