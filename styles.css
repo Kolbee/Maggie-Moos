@@ -31,6 +31,8 @@ nav.button {
 
 .navbar-brand {
   float: left;
+  max-width: 50%;
+  height: auto;
 }
 
 .nav-item {
@@ -107,22 +109,9 @@ h4 {
   background-size: cover;
 }
 
-/* Styles for footer*/
-.title {
-  font-size: 25px;
-}
-
-.days {
-  font-size: 16px;
-}
-
-.ex {
-  font-size: 14px;
-}
-
 /*Start of Ice Cream Page*/
 /*Ice Cream Title*/
-#icetext {
+.icetext {
   color: #FFFFFF;
   background: #F7C1C1;
   text-shadow: 4px 3px 0px #7A7A7A;
@@ -487,11 +476,32 @@ label {
   padding: 30px 80px 30px 20px;
 }
 
+/* Styles for footer*/
+.title {
+  font-size: 25px;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 600;
+}
 
+.info {
+  font-size: 16px;
+  font-family: 'Gelasio', serif;
+}
 
-
-
+.ex {
+  font-size: 13px;
+}
 
 
 /*End of Website*/
-@media {}
+
+/*Media queries for resizing*/
+@media only screen and (max-width: 900px) {
+  .parallax1, .parallax2, .parallax3 {
+    background-attachment: inherit;
+  }
+@media only screen and (max-width: 600px) {
+    .parallax1, .parallax2, .parallax3 {
+      background-attachment: inherit;
+    }
+}
