@@ -40,18 +40,29 @@ nav.button {
 }
 
 
-.column {
+/*.column {
   width: 50%;
   padding: 70px;
 }
+*/
 
+.biglogo{
+  align-content: center;
+  height: auto;
+  width: auto;
+}
 .story {
   text-align: center;
-  font-family: 'Vidaloka', serif;
-  font-size: 20px;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 27px;
+  border: solid 2px;
+  background-color: #61B9BC;
 }
 
 /*Style for headers of ice cream, cake, and cookies section on home and cake page*/
+.all {
+  border: solid 1px;
+}
 .treat {
   font-family: 'Sulphur Point', sans-serif;
   font-size: 30px;
@@ -65,19 +76,12 @@ h4 {
   font-size: 12px;
 }
 
-.b {
-  border-radius: 25px;
-  border: 2px solid black;
-  padding: 10px;
-  width: 250px;
-  height: 350px;
-}
 
 .parallax1 {
   /* The image used */
   background-image: url("img/shakes.jpg");
   /* Set a specific height */
-  height: 500px;
+  height: 550px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
