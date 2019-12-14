@@ -41,9 +41,7 @@ nav.button {
 /*End of Navigation*/
 
 .biglogo{
-  align-content: center;
-  height: auto;
-  width: auto;
+  padding-left: 40%;
 }
 .story {
   text-align: center;
@@ -145,6 +143,10 @@ margin: auto;
   font-family: 'Gochi Hand', cursive;
   font-size: 35px;
 }
+.column {
+  width: 50%;
+  padding: 70px;
+}
 
 p {
   font-family: 'Roboto', sans-serif;
@@ -155,10 +157,6 @@ ul {
   font-size: 20px;
 }
 
-.yogurt {
-  font-family: 'Mansalva', cursive;
-  font-size: 20px;
-}
 .stack {
   padding: 30px;
 }
@@ -304,6 +302,118 @@ ul.location {
     10% {background-position:420px 0;}
     100% {background-position:420px 0;}
   }
+  /*field box on truck page*/
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #c9e9f6;
+    color: #2ab4ec;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .hide-replaced.ws-inputreplace {
+    display: none !important;
+  }
+
+  .input-picker .picker-list td>button.othermonth {
+    color: #888888;
+    background: #fff;
+  }
+
+  .ws-inline-picker.ws-size-2, .ws-inline-picker.ws-size-4 {
+    width: 100%;
+  }
+
+  .ws-size-4 .ws-index-0, .ws-size-4 .ws-index-1 {
+    border-bottom: 0.07692em solid #eee;
+    padding-bottom: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  .picker-list.ws-index-2, .picker-list.ws-index-3 {
+    margin-top: 3.5em;
+  }
+
+  div.ws-invalid input {
+    border-color: #c88;
+  }
+
+  .ws-invalid label {
+    color: #933;
+  }
+
+  div.ws-success input {
+    border-color: #8c8;
+  }
+
+  form {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+  }
+
+  #calendar {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .form-row {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  label {
+    display: block;
+    margin: 3px 0;
+  }
+
+  .form-row input {
+    width: 220px;
+    padding: 3px 1px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+
+  .form-row input[type="checkbox"] {
+    width: 15px;
+  }
+
+  .date-display {
+    display: inline-block;
+    min-width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    min-height: 1em;
+  }
+
+  .show-inputbtns .input-buttons {
+    display: inline-block;
+  }
+
+  .f {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+  }
 
 /*faq title*/
 #faqtext {
@@ -339,131 +449,20 @@ ul.location {
   font-weight: bold;
 }
 
-/*field box on truck page*/
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
 
-input[type=submit] {
-  width: 100%;
-  background-color: #c9e9f6;
-  color: #2ab4ec;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.hide-replaced.ws-inputreplace {
-  display: none !important;
-}
-
-.input-picker .picker-list td>button.othermonth {
-  color: #888888;
-  background: #fff;
-}
-
-.ws-inline-picker.ws-size-2, .ws-inline-picker.ws-size-4 {
-  width: 100%;
-}
-
-.ws-size-4 .ws-index-0, .ws-size-4 .ws-index-1 {
-  border-bottom: 0.07692em solid #eee;
-  padding-bottom: 1em;
-  margin-bottom: 0.5em;
-}
-
-.picker-list.ws-index-2, .picker-list.ws-index-3 {
-  margin-top: 3.5em;
-}
-
-div.ws-invalid input {
-  border-color: #c88;
-}
-
-.ws-invalid label {
-  color: #933;
-}
-
-div.ws-success input {
-  border-color: #8c8;
-}
-
-form {
-  width: 100%;
-  border: 1px solid #000;
-  padding: 10px;
-}
-
-#calendar {
-  width: 100%;
-  margin: 0px;
-}
-
-.form-row {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-label {
-  display: block;
-  margin: 3px 0;
-}
-
-.form-row input {
-  width: 220px;
-  padding: 3px 1px;
-  border: 1px solid #ccc;
-  box-shadow: none;
-}
-
-.form-row input[type="checkbox"] {
-  width: 15px;
-}
-
-.date-display {
-  display: inline-block;
-  min-width: 100%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  min-height: 1em;
-}
-
-.show-inputbtns .input-buttons {
-  display: inline-block;
-}
-
-.f {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  width: 100%;
-}
 
 .col-md-6 {
   padding: 20px 40px 20px 40px;
 }
 
-.stack2 {
+/*.stack2 {
   padding: 30px 40px 30px 40px;
 }
 
 .blue2 {
-  padding: 30px 80px 30px 20px;
+  padding: 30px 20px 30px 20px;
 }
-
+*/
 /* Styles for footer*/
 .title {
   font-size: 25px;
