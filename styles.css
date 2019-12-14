@@ -1,7 +1,7 @@
 html
 
 
-/*Nav*/
+/*Start of Navigation*/
 .navbar {
   border: 1px solid #ccc;
   border-width: 1px 0;
@@ -38,13 +38,7 @@ nav.button {
 .nav-item {
   padding: 10px 30px 10px 30px;
 }
-
-
-/*.column {
-  width: 50%;
-  padding: 70px;
-}
-*/
+/*End of Navigation*/
 
 .biglogo{
   align-content: center;
@@ -69,8 +63,6 @@ nav.button {
   font-weight: 550;
   text-align: center;
 }
-
-.abt {}
 
 h4 {
   font-size: 12px;
@@ -171,26 +163,18 @@ ul {
   padding: 30px;
 }
 
-/*Start of cookie/cake page*/
-/*Style for headers of each section*/
-.main {
-  background-color: ;
-  border:
-    text-align: center;
-  font-size: 30px;
-}
-
 .top {
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
   text-align: center;
 }
 
+/*Start of cookie/cake page*/
 /*Style for original cake section*/
 .origin {
   padding: 15px 30px 15px 30px;
 }
-
+/*Style for all border/background colors*/
 .yellow {
   background-color: #F3F2BB;
   border-radius: 1px;
@@ -248,8 +232,8 @@ ul {
 .left {
   border-left: 6px solid white;
 }
-
 /*End of styles for cookie/cake page*/
+
 ul.location {
   list-style-type: circle;
 }
